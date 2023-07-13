@@ -1,5 +1,5 @@
 # meteor-docker-image
-Custom docker image with MeteorJS 2.12, ready to deploy Meteor apps in GitLab Pipeline Editor
+Custom docker image with Meteor 2.12, ready to deploy Meteor apps in GitLab Pipeline Editor
 It's public in https://hub.docker.com/r/lacodificadora/meteorjs
 
 Copy src/Dockerfile to a folder and run:
@@ -8,7 +8,7 @@ Copy src/Dockerfile to a folder and run:
   docker push -a lacodificadora/meteorjs
 ```
 
-You can use it like this:
+You can use it in GitLab Pipeline Editor like this:
 ```
 image: lacodificadora/meteorjs:meteor-2.12
 
